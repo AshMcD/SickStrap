@@ -12,7 +12,7 @@ function addExcuse() {
 
 	$(document).ready (function () {
         $('#generate').click (function () {
-        $("p").text(function(n) {
+        $("#excusesComplete").text(function(n) {
             return "My " + who + did + " my " + what + ".";
         });
         });

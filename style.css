@@ -24,6 +24,17 @@ button:hover{
     
 }
 
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 30px;
+  font-family:'Russo One', sans-serif;
+
+color: #0A2342;
+}
+
 .top-buffer {
     padding-top: 60px;
 }
