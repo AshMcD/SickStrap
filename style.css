@@ -7,7 +7,6 @@ body {
 
 h1 {
 	font-size: 64px;
-	margin-left: 25px;
 
 }
 
@@ -25,16 +24,15 @@ button:hover{
 }
 
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 30px;
-  font-family:'Russo One', sans-serif;
-
-color: #0A2342;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /*fixed height of the footer*/
+    height: 30px;
+    font-family:'Russo One', sans-serif;
+    color: #0A2342;
 }
-
+/* add padding via a class */
 .top-buffer {
     padding-top: 60px;
 }
